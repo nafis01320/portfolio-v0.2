@@ -298,16 +298,23 @@
 }
 
 .child_container_con{
-  border: 1px solid red;
+  background: url('/logo1.png');
+  background-position: -13em -12em;
+  /* border: 1px solid red; */
   width: 100vw;
   overflow: scroll;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  
 }
+
+
+
 .form{
   width: 25em;
+  z-index: 1;
   
 }
 .form > form{
@@ -326,3 +333,4 @@
 .emailTxt{
   margin-top: 5em;
 }
+

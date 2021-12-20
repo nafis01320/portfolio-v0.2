@@ -9,7 +9,6 @@ export default function Navbar(){
                     {/* button div here */}
                    <div className='btn_navbar_div'>
                        <Link href='/'><button className='btn_navbar'>> Home</button></Link>
-                        
                    </div>
                    
                    <div className='btn_navbar_div'>
